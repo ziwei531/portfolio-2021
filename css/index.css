@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+#greeting-section {
+    padding: 3% 15% 2%;
+}
+
+#skill-section {
+    padding: 1% 2% 15% 2%;
+}
+
 nav {
     background-color: #da7f8f !important; 
 }
@@ -8,19 +20,34 @@ body {
     background-color: #faf3f3;
 }
 
-h1 {
+p {
     font-family: 'DM Serif Display', serif;
-    color: #564a4a;
+    color: #3B252C;
     position: relative;
-    top: 100px;
+    
+}
+
+.special-skills {
+    padding-bottom: 5%;
+    
+}   
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 3px solid #da7f8f;
 }
 
 .profile-pic {
     position: relative;
-    top: 100px;
+    top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
     height: auto;
+}
+
+.skill-headings {
+    text-align: center;
 }
