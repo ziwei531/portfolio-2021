@@ -4,12 +4,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.brand-logo {
+    position: relative;
+    left: 25px;
+}
+
 #greeting-section {
     padding: 3% 15% 2%;
 }
 
 #skill-section {
-    padding: 1% 2% 15% 2%;
+    padding: 1% 2% 5% 2%; /* top right bottom left */
 }
 
 nav {
@@ -29,9 +34,13 @@ p {
 
 .special-skills {
     padding-bottom: 5%;
-    
 }   
 
+.skills:hover {
+    /*special skill section icons */
+    color: #da7f8f;
+}
+    
 hr {
     height: 0px;
     border: none;
@@ -51,3 +60,7 @@ hr {
 .skill-headings {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    
+  }

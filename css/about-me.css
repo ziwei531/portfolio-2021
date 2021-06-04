@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #faf3f3;
+}
+
+.brand-logo {
+    position: relative;
+    left: 25px;
+}
+
+nav {
+    background-color: #da7f8f !important; 
+}
+
+.heading {
+    text-decoration: underline;
+}
