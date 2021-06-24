@@ -1,10 +1,15 @@
-html {
-    scroll-behavior: smooth;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background-color: #faf3f3;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .brand-logo {
@@ -16,6 +21,31 @@ nav {
     background-color: #da7f8f !important; 
 }
 
+footer {
+    background-color: #da7f8f !important; 
+}
+
 .heading {
     text-decoration: underline;
+    font-family: 'DM Serif Display', serif;
+    color: #3B252C;
+}
+
+.card-title {
+    font-family: 'Karla', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 500;
+}
+
+.about-content {
+    line-height: 1.5;
+    font-family: 'Karla', sans-serif;
+}
+
+
+@media only screen and (min-width: 993px) {
+    .text-next-to-card {
+        position: relative;
+        top: 150px;
+    }
 }

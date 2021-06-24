@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Materialzie Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="./css/projects.css">
+
+</head>
+<body>
+    <!-- Mobile Nav -->
+    <ul id="slide-out" class="sidenav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about-me.html">More About Me</a></li>
+    </ul>
+    
+    <!-- NavBar -->
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">WZW</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium material-icons menu">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about-me.html">More About Me</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- card section-->
+
+    <div class="container">
+      <div class="valign-wrapper">
+        <div class="row">
+
+          <h1 class="heading center">Projects</h1>
+          
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/Screenshot 2021-06-06 162229.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Portfolio Made during Foundation<i class="material-icons right">more_vert</i></span>
+              <p><a target="blank" href="https://whoongziwei-ccts.netlify.app/">Click here to go to this Portfolio's site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Portfolio Made during Foundation<i class="material-icons right">close</i></span>
+              <p>This Portfolio was made during my Foundation. This was created initially to showcase my web programming assignments that I have made on semester 2. However, on semester 3 I was given an assignment that required me to create a portfolio website using any method I wanted. Since I've already had an existing portfolio website at the time, I immediately got to work and redesigned the website to fit the assignment's requirements, while still keeping my existing web programming assignments which was optional for me to showcase. As this portfolio was made based on my own creativity, I feel proud having made it with only one month experience in web development at that time.</p>
+
+              <p>This website is made using HTML, Materialize CSS framework, and a bit of jQuery for certain functionalities.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/Case_Study.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Case Study<i class="material-icons right">more_vert</i></span>
+              <p><a target="blank" href="Case_Study.html">Click here to go read my case study</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">My first Data Analyst Case Study<i class="material-icons right">close</i></span>
+              <p>This Case Study is done as part of the Google Data Analytics Professional Certificate. As the certificate was taught in R, I went ahead and relearn everything in Python instead as I already had the foundations established back when I was studying Foundation in Computing. This Case Study demonstrates my skills in: Pandas, Matplotlib, and Seaborn</p>
+              <p>This website is made using HTML, Materialize CSS framework, and a bit of jQuery for certain functionalities.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Designed with Materialize CSS Framework</h5>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contact Me!</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/whoong-zi-wei-9a3173203/">LinkedIn</a></li>
+              <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/ziwei531">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+        &copy; 2021 Whoong Zi Wei 
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.collapsible').collapsible();
+  });
+</script>
+
+</html>

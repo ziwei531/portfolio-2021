@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+nav {
+    background-color: #da7f8f !important; 
+}
+
+body {
+    background-color: #faf3f3;
+}
+
+.brand-logo {
+    position: relative;
+    left: 25px;
+}
+
+footer {
+    background-color: #da7f8f !important; 
+}
+
+.heading {
+    padding: 3% 0%;
+    text-decoration: underline;
+    font-family: 'DM Serif Display', serif;
+    color: #3B252C;
+}

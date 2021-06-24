@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
     <!-- Materialzie Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <title>Home</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Mobile Nav -->
     <ul id="slide-out" class="sidenav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">More About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about-me.html">More About Me</a></li>
     </ul>
-    
 
+    <!-- NavBar-->
     <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">WZW</a>
-          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium material-icons menu">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="about-me.html">More About Me</a></li>
-          </ul>
-        </div>
-      </nav>
-      
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">WZW</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="medium material-icons menu">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about-me.html">More About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
       <section id="greeting-section">
-
         <div class="container">
-          <img class="profile-pic circle responsive-img" src="./images/FB_IMG_1606709804001 (2).jpg" alt="">
-          <br>
-          <p class="center flow-text">Hi there! My name is <strong>Whoong Zi Wei</strong> and I am currently a Computer Science student in Taylor's University. </p>
+          <img
+            class="profile-pic circle responsive-img"
+            src="./images/FB_IMG_1606709804001 (2).jpg"
+            alt=""
+          />
+          <br />
+          <p class="center flow-text">
+            Hi there! My name is <strong>Whoong Zi Wei</strong> and I am
+            currently a Computer Science student in Taylor's University. This portfolio is a work in progress! 
+          </p>
         </div>
 
-        <hr>
-
+        <hr />
       </section>
-     
+
       <section id="skill-section">
         <div class="container">
           <h2 class="center special-skills">Special Skills</h2>
 
-          
-
           <div class="row">
-
             <div class="col l4 m12">
               <div class="center">
                 <i class="material-icons psychology large skills">psychology</i>
               </div>
-              
+
               <h4 class="skill-headings">Analytical Mind</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
-            
+
             <div class="col l4 m12">
               <div class="center">
                 <i class="material-icons settings large skills">settings</i>
               </div>
               <h4 class="skill-headings">Technical Skills</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
 
             <div class="col l4 m12">
@@ -80,31 +94,67 @@
                 <i class="material-icons timeline large skills">timeline</i>
               </div>
               <h4 class="skill-headings">Data Visualization</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
-
-           
-           
-
           </div>
 
           <!-- <hr> -->
-
         </div>
       </section>
 
-</body>
+      <!-- Footer -->
 
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">
+                Designed with Materialize CSS Framework
+              </h5>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Contact Me!</h5>
+              <ul>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/whoong-zi-wei-9a3173203/"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    target="_blank"
+                    href="https://github.com/ziwei531"
+                    >Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container center">&copy; 2021 Whoong Zi Wei</div>
+        </div>
+      </footer>
+    </main>
+  </body>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-    <script>
-      $(document).ready(function(){
-          $('.sidenav').sidenav();
-          $('.collapsible').collapsible();
-      });
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".sidenav").sidenav();
+      $(".collapsible").collapsible();
+    });
   </script>
 </html>
