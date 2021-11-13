@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -29,13 +30,13 @@ body {
     background-color: #faf3f3;
 }
 
-p {
-    font-family: 'DM Serif Display', serif;
+.description {
     color: #3B252C;
-    position: relative;
-    
 }
 
+.work-in-progress {
+    font-family: 'Nanum Gothic', sans-serif;
+}
 .special-skills {
     padding-bottom: 5%;
 }   
@@ -65,6 +66,9 @@ hr {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    
-  }
+@media only screen and (max-width: 815px) {
+    .work-in-progress {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 32px;
+    }
+}
